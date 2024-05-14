@@ -1,0 +1,46 @@
+.header-wrapper {
+    position: relative;
+    margin-top: 88px;
+
+    .header-background {
+        width: 100vw;
+        min-height: 410px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .header-title {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 166px;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 72px;
+        color: #ffffff;
+
+        .title {
+            max-width: 620px;
+        }
+    }
+
+    @media (max-width:1065px) {
+        .header-background {
+            height: 410px;
+            width: 100vw;
+            overflow: hidden;
+
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+}

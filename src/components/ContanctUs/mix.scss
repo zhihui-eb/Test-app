@@ -1,0 +1,41 @@
+.contact-us-wrapper {
+  min-height: 144px;
+  background-color: #2f2f2f;
+  margin: 133px 166px 118px 166px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 104px;
+  padding-right: 110px;
+
+  @media (max-width: 1065px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: unset;
+    margin-right: unset;
+    gap: 15px;
+  }
+
+  .contact-us-text {
+    font-family: Spartan;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .contact-us-btn {
+    width: 185px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    background-color: #e9501d;
+  }
+}

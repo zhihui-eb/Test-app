@@ -1,0 +1,75 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 35px 67px 77px 105px;
+
+  @media (max-width: 798px) {
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  .social-medias {
+    .company-logo {
+      height: 35px;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+
+      margin-bottom: 22px;
+    }
+
+    .medias-logos {
+      display: flex;
+      gap: 26px;
+    }
+  }
+
+  .CCA-wrapper {
+    height: auto;
+    width: 362px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      width: 70px;
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: Spartan;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+      }
+    }
+
+    .CCA-logo-container {
+      height: auto;
+
+      .CCA-logo {
+        img {
+          height: 100px;
+          width: auto;
+        }
+      }
+
+      .CCA-text {
+        height: 24px;
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+  }
+}

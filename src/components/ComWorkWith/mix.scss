@@ -1,0 +1,49 @@
+.wrapper {
+  min-height: 436px;
+  margin: 0 72px;
+  padding: 64px 103px 128px 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+
+  @media (max-width: 1065px) {
+    padding: 64px 83px 128px 83px;
+  }
+
+  .com-work-with-text {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.44px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 54px;
+  }
+
+  .logos-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    gap: calc(25% - 155px);
+
+    .logo-item {
+      height: 62px;
+      width: 155px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-height: 62px;
+        max-width: 156px;
+        height: auto;
+        width: auto;
+        display: block;
+      }
+    }
+  }
+}
